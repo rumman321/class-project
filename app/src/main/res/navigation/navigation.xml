@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/bmiFragment2">
+
+    <fragment
+        android:id="@+id/bmiFragment2"
+        android:name="com.example.allcalculator.BmiFragment"
+        android:label="fragment_bmi"
+        tools:layout="@layout/fragment_bmi" />
+    <fragment
+        android:id="@+id/tempretureFragment"
+        android:name="com.example.allcalculator.TempretureFragment"
+        android:label="fragment_tempreture"
+        tools:layout="@layout/fragment_tempreture" />
+    <fragment
+        android:id="@+id/calculatorFragment"
+        android:name="com.example.allcalculator.CalculatorFragment"
+        android:label="fragment_calculator"
+        tools:layout="@layout/fragment_calculator" />
+</navigation>
